@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.career{
+    background-color:#FCF5E8;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $mars-color;
+    font-family: 'Dosis',sans-serif;
+    h2 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+}
