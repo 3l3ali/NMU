@@ -1,0 +1,8 @@
+@import "../../../variables.scss";
+.testimonials {
+    background-color: $light-section-bg;
+    padding: 40px 0;
+    .testimonial {
+        margin-top: 20px;
+    }
+}
