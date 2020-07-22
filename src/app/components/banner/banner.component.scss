@@ -23,7 +23,7 @@
             text-decoration: none;
             color: white;
             background-color: $mars-color;
-            width: 100px;
+            width: 120px;
             padding: 6px 20px;
             margin: 0 10px;
             border-radius: 15px;
@@ -45,6 +45,7 @@
         text-shadow: 2px 2px $mars-color;
     }
     h2 {
+        margin-top: 20px;
         font-size: 2em;
         font-weight: 400;
         text-shadow: 2px 2px $mars-color;

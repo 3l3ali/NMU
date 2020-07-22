@@ -1,20 +1,85 @@
 @import "../../variables.scss";
 
+
 .career{
-    background-color:#FCF5E8;
-    height: 300px;
+    font-family: 'Dosis',sans-serif;
+    background-color: $light-section-bg;
+    height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: $mars-color;
-    font-family: 'Dosis',sans-serif;
+    
     h2 {
         font-size: 40px;
         font-weight: 400;
     }
+
     h3 {
+        margin-top: 35px;
         font-size: 30px;
         font-weight: 300;
+    }
+
+    a{
+        margin-top: 40px;;
+        border-radius: 15px;
+        font-size: 1rem ;
+        &:hover{
+            color: $mars-color;
+        }
+    }
+}
+
+.why-nmu {
+    font-family: 'Dosis', sans-serif;
+    background-color: $mars-color;
+    height: 100%;
+    padding: 50px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        font-size: 40px;
+        font-weight: 400;
+    }
+    h3 {
+        font-weight: 300;
+        margin-top: 35px;
+    }
+}
+
+.financial{
+    font-family: 'Dosis', sans-serif;
+    background-color: $light-section-bg;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $mars-color;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    h3 {
+        margin-top: 35px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    a{
+        font-size: 1rem ;
+        margin-top: 40px;;
+        border-radius: 15px;
+        &:hover{
+            color: $mars-color;
+        }
     }
 }
