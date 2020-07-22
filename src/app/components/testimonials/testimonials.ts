@@ -8,6 +8,7 @@ const TESTIMONIALS = [
     {
         name: 'John Smith',
         major: 'Space Engineer',
+        // tslint:disable-next-line: max-line-length
         quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         picture: 'jane-1.jpg'
     },
