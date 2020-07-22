@@ -83,3 +83,34 @@
         }
     }
 }
+
+.tour {
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 1px $mars-color;
+    h2 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    h3 {
+        margin-top: 35px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    a{
+        color: $mars-color;
+        text-shadow: 1px 1px white;
+        background-color: rgba(255,255,255,0.4);
+        font-size: 1rem ;
+        margin-top: 40px;;
+        border-radius: 15px;
+    }
+}
