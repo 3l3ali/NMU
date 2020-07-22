@@ -4,6 +4,7 @@
 ## 🔥 Technologies  
 - Angular
 - TypeScript
+- JavaScript
 - Html
 - SCSS
 - Bootstrap
