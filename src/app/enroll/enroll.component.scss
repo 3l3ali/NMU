@@ -1,0 +1,29 @@
+@import "../../variables";
+
+#enrollBanner {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.enroll-form-wrapper{
+    background-color: $light-section-bg;
+    h1 {
+        color: $mars-color;
+        margin-top: 50px;
+    }
+    form {
+        margin: 70px 0;
+    }
+}
+
+.enroll-form-btn {
+    color: white;
+    background-color: $mars-color;
+
+    &:hover{
+        color: $mars-color;
+        background-color: white;
+        border: 1px solid $mars-color;
+    }
+}

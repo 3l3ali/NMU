@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TESTIMONIALS } from './testimonials';
+import { TESTIMONIALS } from '../../data/testimonials';
 
 @Component({
   selector: 'app-testimonials',

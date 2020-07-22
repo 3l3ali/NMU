@@ -1,0 +1,38 @@
+const PROGRAMS = [
+    'Accounting',
+    'Art',
+    'Asc. General Studies',
+    'Asc. Science',
+    'Automotive',
+    'Aviation Flight Technology',
+    'Behavioral Sciences',
+    'Business Administration',
+    'Computer Networking',
+    'Computer Programming',
+    'Corrections',
+    'Culinary Arts',
+    'Cyber Security',
+    'Dental Hygiene',
+    'ECommerce',
+    'Electrician',
+    'Emergency Medical Technology',
+    'Engineering',
+    'English',
+    'Graphic Design',
+    'Health Administration',
+    'History',
+    'Marketing',
+    'Mathematics',
+    'Medical Assistant',
+    'Music',
+    'Nursing',
+    'Pre-Law',
+    'Psychology',
+    'Radiology',
+    'Science',
+    'Social Work',
+    'Sports Management'
+];
+
+
+export { PROGRAMS };
