@@ -5,3 +5,24 @@
     background-position: center;
     background-size: cover;
 }
+
+.tour-wrapper {
+    background-color: $light-section-bg;
+    padding: 50px 0;
+
+    h1{
+        color: $mars-color;
+        margin-bottom: 50px;
+    }
+
+    .tour-form-btn {
+        color: white;
+        background-color: $mars-color;
+    
+        &:hover{
+            color: $mars-color;
+            background-color: white;
+            border: 1px solid $mars-color;
+        }
+    }
+}
