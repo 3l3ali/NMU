@@ -1,0 +1,24 @@
+@import "../../../variables";
+
+.navbar-custom {
+    justify-content: space-between;
+    background: $mars-color;
+    box-shadow: none;
+}
+  
+.navbar-custom .navbar-collapse {
+    flex-grow: 0;
+}
+
+.navi {
+    padding-top: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+#navbarSupportedContent a{
+    color: white;
+    font-size: 18px;
+}
+.navbar-brand {
+    color: white;
+}
