@@ -10,7 +10,7 @@ import { Title } from '@angular/platform-browser';
 export class EnrollComponent implements OnInit {
   programs = PROGRAMS;
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Enroll Today | NMU The Best Uni In The Galaxy');
+    this.titleService.setTitle('NMU | Enroll Today');
   }
 
   ngOnInit(): void {

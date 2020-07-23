@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PROGRAMS } from '../data/programs';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-programs',
@@ -8,7 +9,9 @@ import { PROGRAMS } from '../data/programs';
 })
 export class ProgramsComponent implements OnInit {
   programs = PROGRAMS;
-  constructor() { }
+  constructor(private titleService: Title) {
+    titleService.setTitle('NMU | Available Programs');
+  }
 
   ngOnInit(): void {
   }
