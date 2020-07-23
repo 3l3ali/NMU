@@ -1,0 +1,26 @@
+@import "../../variables";
+
+#tutionBanner {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tution-wrapper {
+    background-color: $light-section-bg;
+    padding-bottom: 50px;
+
+    h1 {
+        color: $mars-color;
+        margin: 50px;
+    }
+
+    table th{
+        color: white;
+        background-color: $mars-color;
+    }
+
+    h3 {
+        margin-bottom: 50px;
+    }
+}

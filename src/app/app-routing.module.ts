@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { EnrollComponent } from './enroll/enroll.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { AboutComponent } from './about/about.component';
+import { TutionComponent } from './tution/tution.component';
 
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'enroll', component: EnrollComponent},
   {path: 'programs', component: ProgramsComponent},
-  {path: 'about', component: AboutComponent}
+  {path: 'about', component: AboutComponent},
+  {path: 'tution', component: TutionComponent}
 ];
 
 @NgModule({
