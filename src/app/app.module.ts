@@ -12,6 +12,7 @@ import { ProgramsComponent } from './programs/programs.component';
 import { AboutComponent } from './about/about.component';
 import { TutionComponent } from './tution/tution.component';
 import { TourComponent } from './tour/tour.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TourComponent } from './tour/tour.component';
     ProgramsComponent,
     AboutComponent,
     TutionComponent,
-    TourComponent
+    TourComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
