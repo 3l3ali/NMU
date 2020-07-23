@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./enroll.component.scss']
 })
 export class EnrollComponent implements OnInit {
-  programs: string[] = PROGRAMS;
+  programs = PROGRAMS;
   constructor(private titleService: Title) {
     this.titleService.setTitle('Enroll Today | NMU The Best Uni In The Galaxy');
   }

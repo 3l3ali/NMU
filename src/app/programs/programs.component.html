@@ -1,1 +1,19 @@
-<p>programs works!</p>
+<div id="programsBanner" style="background-image: linear-gradient(rgba(0, 0, 0,0.2),rgba(255, 78, 0, 0.3)), url('../../assets/banners/programs.jpg');"></div>
+
+<div class="programs-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center wow fadeInUp">
+                <h1>Programs To Study</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4" *ngFor="let program of programs">
+                <div class="program-card text-center">
+                    <h4>{{program.name}}</h4>
+                    <img src="assets/{{program.picture}}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
