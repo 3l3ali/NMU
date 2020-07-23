@@ -1,5 +1,5 @@
 ## 🎓 About  
-Frontend Interface for an Imaginary Northen Mars University.
+Frontend Angular Interface for an Imaginary Northen Mars University.
 
 ## 🔥 Technologies  
 - Angular
