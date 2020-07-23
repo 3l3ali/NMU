@@ -1,0 +1,22 @@
+@import "../../variables";
+
+#aboutBanner {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-wrapper {
+    background-color: $light-section-bg;
+    padding: 50px 0;
+
+    h2,h3 {
+        color: $mars-color;
+    }
+    h3 {
+        margin-top: 30px;
+    }
+    span {
+        font-weight: 500;
+    }
+}
