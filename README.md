@@ -1,5 +1,5 @@
 ## 🎓 About  
-
+Frontend Interface for an Imaginary Northen Mars University.
 
 ## 🔥 Technologies  
 - Angular
@@ -8,6 +8,7 @@
 - Html
 - SCSS
 - Bootstrap
+- Single Page 
 - Responsive Design
 
 ## 🌎 Hosting  
