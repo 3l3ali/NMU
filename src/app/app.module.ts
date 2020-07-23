@@ -11,6 +11,7 @@ import { EnrollComponent } from './enroll/enroll.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { AboutComponent } from './about/about.component';
 import { TutionComponent } from './tution/tution.component';
+import { TourComponent } from './tour/tour.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TutionComponent } from './tution/tution.component';
     EnrollComponent,
     ProgramsComponent,
     AboutComponent,
-    TutionComponent
+    TutionComponent,
+    TourComponent
   ],
   imports: [
     BrowserModule,
