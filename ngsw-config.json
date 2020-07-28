@@ -14,7 +14,8 @@
           "/*.js"
         ],
         "urls": [
-          "https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300;400;500&display=swap"
+          "https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300;400;500&display=swap",
+          "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         ]
       }
     }, {
